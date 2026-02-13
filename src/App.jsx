@@ -1,8 +1,11 @@
 import React from 'react'
+import ProductList from './components/productList'
 
 function Booom() {
   return (
-    <div className="text-red-500 text-5xl p-4">Booom</div>
+    <div>
+      <ProductList/>
+    </div>
   )
 }
 

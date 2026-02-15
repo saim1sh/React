@@ -1,12 +1,10 @@
-import React from 'react'
-import ProductList from './components/productList'
+import FamilyInfo from "./context/FamilyInfo";
 
-function Booom() {
+export default function Booom() {
   return (
-    <div>
-      <ProductList/>
+    <div className="p-5">
+      {/* <ProductList/> */}
+      <FamilyInfo />
     </div>
-  )
+  );
 }
-
-export default Booom
